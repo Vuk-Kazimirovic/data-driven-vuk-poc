@@ -1,12 +1,12 @@
 This README provides instructions for executing a test using Cypress, a popular JavasCript end-toend testing framework.
 
-#Prerequisites
+# Prerequisites
 
 Before executing the Cypress test, make sure you have the following installed:
 - Node.js (version 12 or above)
 - npm (Node Package Manager)
 
-#Setup
+# Setup
 
 1. Clone or download the project repository containing your Cypress test code.
 2. Open terminal or command prompt and navigate to the project's root directory.
@@ -23,7 +23,7 @@ Before executing the Cypress test, make sure you have the following installed:
 
 3. Review the other available configuration options in 'cypress.json' to customize your test execution if necessary.
 
-#Executing the test
+# Executing the test
 
 1. In the terminal or command prompt, navigate to the project's root directory if you haven't already.
 2. To launch the Cypress Test Runner, run the following command: npx cypress open
@@ -38,10 +38,10 @@ If you prefer to run the tests in headless mode (without the graphical interface
 
 This will execute the tests in the terminal and provide the test results without launching the Cypress Test Runner GUI.
 
-#Further customization
+# Further customization
 
 To further customize your tests, you can explore the Cypress documentation which provides detailed information on writing and organizing tests, interacting with elements, handling assertions and more. Visit the official Cypress website at https://docs.cypress.io for comprehensive documentation and guides.
 
-#Conclusion
+# Conclusion
 
 By following the instructions in this README, you should be able to execute your Cypress tests and validate the behaviour of your application. Happy testing!
